@@ -11,7 +11,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-#Did i miss something?
+# It seems something is missing. find it out and add it.
+# Hint: Check if all apps are listed down.
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
