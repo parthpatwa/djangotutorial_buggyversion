@@ -2,11 +2,12 @@ from django.db import models
 
 
 class tagLine(models.Model):
+    # It seems some fields are missing, fill them up!
     tagline = models.CharField(max_length = 200)
     username = models.CharField(max_length = 200,default="test")
-    #Create a IntegerFiled object 'numberOfVotes' with default value 0 here;
+    # Hint: Create an IntegerFiled object 'numberOfVotes' with default value 0 here;
     
-    #isPopular doesnt seem to be right.
+    #isPopular doesnt seem to be right. Can you fix it?
     def isPopular(self):
         if(self.numberOfVotes > 5):
             return False
